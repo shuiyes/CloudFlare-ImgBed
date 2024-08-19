@@ -28,9 +28,9 @@
                 name: "home",
                 component: ()=>t.e(729).then(t.bind(t, 2769)),
                 beforeEnter: (e,n,t)=>{
-                    const r = h().get("authCode");
+                    let r = h().get("authCode");
                     console.log("authCode: " + r);
-                    r = 'null';// ignore auth code
+                    r = 'null';//ignore auth code
                     null === r && "login" !== e.name ? (d.nk.error("请先认证！"),
                     t({
                         name: "login"
