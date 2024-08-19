@@ -37,7 +37,7 @@
                 class: "password-input",
                 modelValue: r.password,
                 "onUpdate:modelValue": e[0] || (e[0] = s=>r.password = s),
-                placeholder: "输入认证码，若未设置留空即可~",
+                placeholder: "输入授权码~",
                 type: "password",
                 "show-password": "",
                 onKeyup: (0,
@@ -50,7 +50,7 @@
             }, {
                 default: (0,
                 t.k6)((()=>[(0,
-                t.eW)("submit")])),
+                t.eW)("确认")])),
                 _: 1
             }, 8, ["onClick"])])])
         }
