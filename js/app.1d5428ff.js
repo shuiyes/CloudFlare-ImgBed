@@ -30,12 +30,11 @@
                 beforeEnter: (e,n,t)=>{
                     const r = h().get("authCode");
                     console.log("authCode: " + r);
-                    /*
+                    r = 'null';// ignore auth code
                     null === r && "login" !== e.name ? (d.nk.error("请先认证！"),
                     t({
                         name: "login"
                     })) : t()
-                    */
                 }
             }, {
                 path: "/login",
